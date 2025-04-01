@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { NextResponse } from "next/server";
-import dbConnect from "../../../lib/mongodb";
-import Feedback from "../../../models/Feedback";
+import dbConnect from "@/lib/mongodb";
+import Feedback from "@/models/Feedback";
+
 
 export async function POST(req: Request) {
   try {

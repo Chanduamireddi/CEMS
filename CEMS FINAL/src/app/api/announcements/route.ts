@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import dbConnect from "../../../lib/mongodb";
-import Announcement from "../../../models/Announcement";
+import dbConnect from "@/lib/mongodb";
+import Announcement from "@/models/Announcement";
 
 // ✅ GET: Fetch all announcements
 export async function GET() {

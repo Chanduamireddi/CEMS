@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { NextResponse } from "next/server";
-import dbConnect from "../../../../lib/mongodb";
-import OrganizerRequest from "../../../../models/OrganizerRequest";
-import Event from "../../../../models/Event";
+import dbConnect from "@/lib/mongodb";
+import OrganizerRequest from "@/models/OrganizerRequest";
+import Event from "@/models/Event";
 
 export async function GET() {
   try {
