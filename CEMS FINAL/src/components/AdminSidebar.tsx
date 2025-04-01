@@ -33,7 +33,7 @@ export default function AdminSidebar() {
           <Link href="/dashboard/events" className="nav-link text-white">
             📅 Manage Events
           </Link>
-          <Link href="/dashboard/users" className="nav-link text-white">
+          <Link href="/dashboard/manageusers" className="nav-link text-white">
             👥 Manage Users
           </Link>
           <Link href="/dashboard/announcements" className="nav-link text-white">
