@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { dbConnect } from "@/lib/mongodb"; 
+import dbConnect from "@/lib/mongodb"; 
   // Ensure this matches your file structure
 import Feedback from "@/models/Feedback";
 
