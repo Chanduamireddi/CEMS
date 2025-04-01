@@ -1,11 +1,11 @@
 import { NextResponse } from "next/server";
-import dbConnect from "@/lib/mongodb";
-import Event from "@/models/Event";
+import dbConnect from "../../../../lib/mongodb";
+import Event from "../../../../models/Event";
 
 export async function POST(req: Request) {
   try {
     await dbConnect();
-    const { eventId, email } = await req.json(); // ✅ Use email instead of userId
+    const { eventId, email } = await req.json();
 
     if (!eventId || !email) {
       return NextResponse.json({ error: "Missing eventId or email" }, { status: 400 });

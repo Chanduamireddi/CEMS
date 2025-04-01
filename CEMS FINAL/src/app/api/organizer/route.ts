@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { NextResponse } from "next/server";
-import dbConnect from "@/lib/mongodb";
-import OrganizerRequest from "@/models/OrganizerRequest";
+import dbConnect from "../../../lib/mongodb";
+import OrganizerRequest from "../../../models/OrganizerRequest";
 
 export async function POST(req: Request) {
   try {
